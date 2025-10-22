@@ -1,19 +1,26 @@
 # C
-El presente repositorio contiene codigos desarrollados en el lenguaje C estos codigos estan dividios en dos categorias C desde Cero y Algoritmos en C.
+El presente repositorio contiene codigos desarrollados en el lenguaje C organizados en dos categorias principales: C desde Cero y Algoritmos en C.
 
-la razon de esta division es debido a que forman parte de mi canal de YouTube donde donde muestro cursos con los nombres de estas divisiones.
+Esta division es debido a que forman parte de mi canal de YouTube donde estos códigos son explicados al igual que el tema de los códigos.
 
 ## 📚 C desde Cero
-Contiene los ejercicios con los fundamentos básicos de C 
-por ejemplo: Tipos de datos, Variables y Constantes, Cadenas de caracteres, Estructuras, Condicionales, Funciones etc.
+Contiene ejemplos orientados a los fundamentos de C.
+por ejemplo: 
+* Tipos de datos
+* Variables y Constantes 
+* Cadenas de caracteres
+* Estructuras
+* Condicionales 
+* Funciones 
+* Entre otros.
 
 
 ## 📚 Algoritmos en C
 Contienen algunos algoritmos aplicados a diferentes propósitos por ejemplo:
-    - Ordenamiento
-    - Busquéda 
-    - Árboles
+* Ordenamiento
+* Busquéda 
+* Árboles
 
 ## 🧪💻 Acerca del compilador
-Los códigos han sido desarrollados en el compilador Codeblocks.
+Los códigos han sido desarrollados y probados utilizando el ide **Code::Blocks**.
 
