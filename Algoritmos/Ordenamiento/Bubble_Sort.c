@@ -22,10 +22,10 @@ void Imprime_Arreglo(int Arreglo[TAMANO]);
 int main()
 {
     int Arreglo[TAMANO] = {7, 3, 9, 11, 1, 16, 4, 14, 2, 10}; // Declaración del arreglo
-    //Impresion del arreglo original
+
     printf("Arreglo original: ");
     Imprime_Arreglo(Arreglo);
-    //Mandamos llamar la función donde se implementa el algoritmo
+    //Mandar llamar al algoritmo
     Bubble_Sort(Arreglo);
 
     return 0; //Fin del programa
@@ -56,7 +56,6 @@ void Bubble_Sort(int Arreglo[TAMANO])
 //Función para imprimir arreglo
 void Imprime_Arreglo(int Arreglo[TAMANO])
 {
-    //Impresión de valores acorde a su posición en el arreglo
     for(int i=0; i<TAMANO; i++)
     {
         printf("%i, ", Arreglo[i]);
