@@ -21,7 +21,8 @@ void Imprime_Arreglo(int Arreglo[TAMANO]);
 //Función principal
 int main()
 {
-    int Arreglo[TAMANO] = {7, 3, 9, 11, 1, 16, 4, 14, 2, 10}; // Declaración del arreglo
+	// Declaración del arreglo
+    int Arreglo[TAMANO] = {7, 3, 9, 11, 1, 16, 4, 14, 2, 10}; 
 
     printf("Arreglo original: ");
     Imprime_Arreglo(Arreglo);
@@ -40,7 +41,7 @@ void Bubble_Sort(int Arreglo[TAMANO])
     {
             for(int i=0; i<TAMANO-j - 1; i++) //Compara los valores  uno por uno
             {
-                if(Arreglo[i] > Arreglo[i+1]) //Si es mayor al siguiente número hace intercambio de valores
+                if(Arreglo[i] > Arreglo[i+1]) 
                 {
                     Buffer = Arreglo[i];
                     Arreglo[i] = Arreglo[i+1];
@@ -48,7 +49,7 @@ void Bubble_Sort(int Arreglo[TAMANO])
                 }
             }
     }
-    //Impresión de resultados
+
     printf("\nArreglo ordenado: ");
     Imprime_Arreglo(Arreglo);
 }
