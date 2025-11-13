@@ -25,7 +25,6 @@ int main()
 	// Declaración del arreglo original
     int Arreglo[TAMANO] = {3, 14, 4, 1, 7, 9, 2, 10, 5, 8};
 
-	// Imprimir arreglo original
     printf("Arreglo original\n\n");
     Imprimir_Arreglo(Arreglo);
 
@@ -39,8 +38,8 @@ int main()
 //Implementación de algoritmo
 void Selection_Sort(int Arreglo[TAMANO])
 {
-    int PosicionMinimo; // Para determinar donde se encuentra el valor minimo
-    int buffer; 		// Variable temporal para hacer intercambio de numeros
+    int PosicionMinimo; 
+    int buffer; 		
 
     for(int i=0; i<TAMANO; i++)
     {
@@ -61,7 +60,7 @@ void Selection_Sort(int Arreglo[TAMANO])
     }
 
     printf("\nArreglo ordenado\n");
-    Imprimir_Arreglo(Arreglo); // Impresión de resultados
+    Imprimir_Arreglo(Arreglo); 
 
 }
 
