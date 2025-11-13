@@ -26,11 +26,10 @@ int main ()
 	//Declaración de arreglo
     int Arreglo[TAMANO] = {8, 3, 12, 1, 11, 9, 5, 4, 2, 7};
 
-	//Muestra en consola el arreglo original
     printf("Arreglo original\n");
     Imprime_Arreglo(Arreglo);
 	
-	//Implementación del algoritmo Insertion Sort
+	//Implementación del algoritmo 
     printf("\nImplementando algoritmo.....\n");
     Insertion_Sort(Arreglo); 
     return 0;
